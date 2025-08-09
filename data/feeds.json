@@ -1,0 +1,858 @@
+{
+    "cs": {
+        "name": "Computer Science",
+        "active": false,
+        "keywords": [],
+        "subfields": {
+            "ai": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "ar": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "cc": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "ce": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "cg": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "cl": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "cr": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "cv": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "cy": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "db": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "dc": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "dl": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "dm": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "ds": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "et": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "fl": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "gl": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "gr": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "gt": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "hc": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "ir": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "it": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "lg": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "lo": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "ma": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "mm": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "ms": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "na": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "ne": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "ni": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "oh": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "os": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "pf": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "pl": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "ro": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "sc": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "sd": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "se": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "si": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "sy": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            }
+        }
+    },
+    "econ": {       
+        "name": "",
+        "active": false,
+        "keywords": [],
+        "subfields": {
+            "em": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "gn": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "th": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            }
+        }
+    },
+    "eess": {       
+        "name": "",
+        "active": false,
+        "keywords": [],
+        "subfields": {
+            "as": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "iv": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "sp": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "sy": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            }
+        }
+    },
+    "math": {       
+        "name": "",
+        "active": false,
+        "keywords": [],
+        "subfields": {
+            "ac": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "ag": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "ap": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "at": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "ca": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "co": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "ct": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "cv": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "dg": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "ds": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "fa": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "gm": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "gn": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "gr": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "gt": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "ho": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "it": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "kt": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "lo": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "mg": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "mp": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "na": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "nt": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "oa": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "oc": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "pr": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "qa": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "ra": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "rt": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "sg": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "sp": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "st": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            }
+        }
+    },
+    "astro-ph": {   
+        "name": "",
+        "active": false,
+        "keywords": [],
+        "subfields": {
+            "co": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "ep": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "ga": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "he": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "im": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "sr": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            }
+        }
+    },
+    "cond-mat": {   
+        "name": "",
+        "active": false,
+        "keywords": [],
+        "subfields": {
+            "dis-nn": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "mes-hall": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "mtrl-sci": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "other": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "quant-gas": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "soft": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "stat-mech": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "str-el": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "supr-con": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            }
+        }
+    },
+    "gr-gc": {      
+        "name": "",
+        "active": false,
+        "keywords": [],
+        "subfields": {}
+    },
+    "hep-ex": {     
+        "name": "",
+        "active": false,
+        "keywords": [],
+        "subfields": {}
+    },
+    "hep-lat": {    
+        "name": "",
+        "active": false,
+        "keywords": [],
+        "subfields": {}
+    },
+    "hep-ph": {     
+        "name": "",
+        "active": false,
+        "keywords": [],
+        "subfields": {}
+    },
+    "hep-th": {     
+        "name": "",
+        "active": false,
+        "keywords": [],
+        "subfields": {}
+    },
+    "math-ph": {    
+        "name": "",
+        "active": false,
+        "keywords": [],
+        "subfields": {}
+    },
+    "nlin": {       
+        "name": "",
+        "active": false,
+        "keywords": [],
+        "subfields": {
+            "ao": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "cd": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "cg": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "ps": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "si": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            }
+        }
+    },
+    "nucl-ex": {    
+        "name": "",
+        "active": false,
+        "keywords": [],
+        "subfields": {}
+    },
+    "nucl-th": {    
+        "name": "",
+        "active": false,
+        "keywords": [],
+        "subfields": {}
+    },
+    "physics": {    
+        "name": "",
+        "active": false,
+        "keywords": [],
+        "subfields": {
+            "acc-ph": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "ao-ph": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "app-ph": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "atm-clus": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "atom-ph": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "bio-ph": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "chem-ph": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "class-ph": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "comp-ph": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "data-an": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "ed-ph": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "flu-dyn": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "gen-ph": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "hist-ph": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "ins-det": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "med-ph": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "optics": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "plasm-ph": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "pop-ph": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "soc-ph": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "space-ph": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            }
+        }
+    },
+    "quant-ph": {   
+        "name": "",
+        "active": false,
+        "keywords": [],
+        "subfields": {}
+    },
+    "q-bio": {
+        "name": "",
+        "active": false,
+        "keywords": [],
+        "subfields": {
+            "bm": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "cb": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "gn": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "mn": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "nc": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "ot": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "pe": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "qm": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "sc": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "to": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            }
+        }
+    },
+    "q-fin": {      
+        "name": "",
+        "active": false,
+        "keywords": [],
+        "subfields": {
+            "cp": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "ec": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "gn": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "mf": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "pm": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "pr": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "rm": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "st": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            },
+            "tr": {
+                "name": "",
+                "active": false,
+                "keywords": []
+            }
+        }
+    },
+    "stat": {
+        "name": "Statistics",
+        "active": false,
+        "keywords": [],
+        "subfields": {
+            "ap": {
+                "name": "Applications",
+                "active": false,
+                "keywords": []
+            },
+            "co": {
+                "name": "Computation",
+                "active": false,
+                "keywords": []
+            },
+            "me": {
+                "name": "Methodology",
+                "active": false,
+                "keywords": []
+            },
+            "ml": {
+                "name": "Machine Learning",
+                "active": false,
+                "keywords": []
+            },
+            "ot": {
+                "name": "Other Statistics",
+                "active": false,
+                "keywords": []
+            },
+            "th": {
+                "name": "Statistics Theory",
+                "active": false,
+                "keywords": []
+            }
+        }
+    }
+}
