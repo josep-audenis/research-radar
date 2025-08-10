@@ -5,814 +5,819 @@
         "keywords": [],
         "subfields": {
             "ai": {
-                "name": "",
+                "name": "Artificial Intelligence",
                 "active": false,
                 "keywords": []
             },
             "ar": {
-                "name": "",
+                "name": "Hardware Architecture",
                 "active": false,
                 "keywords": []
             },
             "cc": {
-                "name": "",
+                "name": "Computational Complexity",
                 "active": false,
                 "keywords": []
             },
             "ce": {
-                "name": "",
+                "name": "Computational Engineering, Finance, and Science",
                 "active": false,
                 "keywords": []
             },
             "cg": {
-                "name": "",
+                "name": "Computational Geometry",
                 "active": false,
                 "keywords": []
             },
             "cl": {
-                "name": "",
+                "name": "Computation and Language",
                 "active": false,
                 "keywords": []
             },
             "cr": {
-                "name": "",
+                "name": "Cryptography and Security",
                 "active": false,
                 "keywords": []
             },
             "cv": {
-                "name": "",
+                "name": "Computer Vision and Pattern Recognition",
                 "active": false,
                 "keywords": []
             },
             "cy": {
-                "name": "",
+                "name": "Computers and Society",
                 "active": false,
                 "keywords": []
             },
             "db": {
-                "name": "",
+                "name": "Databases",
                 "active": false,
                 "keywords": []
             },
             "dc": {
-                "name": "",
+                "name": "Distributed, Parallel, and Cluster Computing",
                 "active": false,
                 "keywords": []
             },
             "dl": {
-                "name": "",
+                "name": "Digital Libraries",
                 "active": false,
                 "keywords": []
             },
             "dm": {
-                "name": "",
+                "name": "Discrete Mathematics",
                 "active": false,
                 "keywords": []
             },
             "ds": {
-                "name": "",
+                "name": "Data Structures and Algorithms",
                 "active": false,
                 "keywords": []
             },
             "et": {
-                "name": "",
+                "name": "Emerging Technologies",
                 "active": false,
                 "keywords": []
             },
             "fl": {
-                "name": "",
+                "name": "Formal Languages and Automata Theory",
                 "active": false,
                 "keywords": []
             },
             "gl": {
-                "name": "",
+                "name": "General Literature",
                 "active": false,
                 "keywords": []
             },
             "gr": {
-                "name": "",
+                "name": "Graphics",
                 "active": false,
                 "keywords": []
             },
             "gt": {
-                "name": "",
+                "name": "Computer Science and Game Theory",
                 "active": false,
                 "keywords": []
             },
             "hc": {
-                "name": "",
+                "name": "Human-Computer Interaction",
                 "active": false,
                 "keywords": []
             },
             "ir": {
-                "name": "",
+                "name": "Information Retrieval",
                 "active": false,
                 "keywords": []
             },
             "it": {
-                "name": "",
+                "name": "Information Theory",
                 "active": false,
                 "keywords": []
             },
             "lg": {
-                "name": "",
+                "name": "Machine Learning",
                 "active": false,
                 "keywords": []
             },
             "lo": {
-                "name": "",
+                "name": "Logic in Computer Science",
                 "active": false,
                 "keywords": []
             },
             "ma": {
-                "name": "",
+                "name": "Multiagent Systems",
                 "active": false,
                 "keywords": []
             },
             "mm": {
-                "name": "",
+                "name": "Multimedia",
                 "active": false,
                 "keywords": []
             },
             "ms": {
-                "name": "",
+                "name": "Mathematical Software",
                 "active": false,
                 "keywords": []
             },
             "na": {
-                "name": "",
+                "name": "Numerical Analysis",
                 "active": false,
                 "keywords": []
             },
             "ne": {
-                "name": "",
+                "name": "Neural and Evolutionary Computing",
                 "active": false,
                 "keywords": []
             },
             "ni": {
-                "name": "",
+                "name": "Networking and Internet Architecture",
                 "active": false,
                 "keywords": []
             },
             "oh": {
-                "name": "",
+                "name": "Other Computer Science",
                 "active": false,
                 "keywords": []
             },
             "os": {
-                "name": "",
+                "name": "Operating Systems",
                 "active": false,
                 "keywords": []
             },
             "pf": {
-                "name": "",
+                "name": "Performance",
                 "active": false,
                 "keywords": []
             },
             "pl": {
-                "name": "",
+                "name": "Programming Languages",
                 "active": false,
                 "keywords": []
             },
             "ro": {
-                "name": "",
+                "name": "Robotics",
                 "active": false,
                 "keywords": []
             },
             "sc": {
-                "name": "",
+                "name": "Symbolic Computation",
                 "active": false,
                 "keywords": []
             },
             "sd": {
-                "name": "",
+                "name": "Sound",
                 "active": false,
                 "keywords": []
             },
             "se": {
-                "name": "",
+                "name": "Software Engineering",
                 "active": false,
                 "keywords": []
             },
             "si": {
-                "name": "",
+                "name": "Social and Information Networks",
                 "active": false,
                 "keywords": []
             },
             "sy": {
-                "name": "",
+                "name": "Systems and Control",
                 "active": false,
                 "keywords": []
             }
         }
     },
     "econ": {       
-        "name": "",
+        "name": "Economics",
         "active": false,
         "keywords": [],
         "subfields": {
             "em": {
-                "name": "",
+                "name": "Econometrics",
                 "active": false,
                 "keywords": []
             },
             "gn": {
-                "name": "",
+                "name": "General Economics",
                 "active": false,
                 "keywords": []
             },
             "th": {
-                "name": "",
+                "name": "Theoretical Economics",
                 "active": false,
                 "keywords": []
             }
         }
     },
     "eess": {       
-        "name": "",
+        "name": "Electrical Engineering and Systems Science",
         "active": false,
         "keywords": [],
         "subfields": {
             "as": {
-                "name": "",
+                "name": "Audio and Speech Processing",
                 "active": false,
                 "keywords": []
             },
             "iv": {
-                "name": "",
+                "name": "Image and Video Processing",
                 "active": false,
                 "keywords": []
             },
             "sp": {
-                "name": "",
+                "name": "Signal Processing",
                 "active": false,
                 "keywords": []
             },
             "sy": {
-                "name": "",
+                "name": "Systems and Control",
                 "active": false,
                 "keywords": []
             }
         }
     },
     "math": {       
-        "name": "",
+        "name": "Mathematics",
         "active": false,
         "keywords": [],
         "subfields": {
             "ac": {
-                "name": "",
+                "name": "Commutative Algebra",
                 "active": false,
                 "keywords": []
             },
             "ag": {
-                "name": "",
+                "name": "Algebraic Geometry",
                 "active": false,
                 "keywords": []
             },
             "ap": {
-                "name": "",
+                "name": "Analysis of PDEs",
                 "active": false,
                 "keywords": []
             },
             "at": {
-                "name": "",
+                "name": "Algebraic Topology",
                 "active": false,
                 "keywords": []
             },
             "ca": {
-                "name": "",
+                "name": "Classical Analysis and ODEs",
                 "active": false,
                 "keywords": []
             },
             "co": {
-                "name": "",
+                "name": "Combinatorics",
                 "active": false,
                 "keywords": []
             },
             "ct": {
-                "name": "",
+                "name": "Category Theory",
                 "active": false,
                 "keywords": []
             },
             "cv": {
-                "name": "",
+                "name": "Complex Variables",
                 "active": false,
                 "keywords": []
             },
             "dg": {
-                "name": "",
+                "name": "Differential Geometry",
                 "active": false,
                 "keywords": []
             },
             "ds": {
-                "name": "",
+                "name": "Dynamical Systems",
                 "active": false,
                 "keywords": []
             },
             "fa": {
-                "name": "",
+                "name": "Functional Analysis",
                 "active": false,
                 "keywords": []
             },
             "gm": {
-                "name": "",
+                "name": "General Mathematics",
                 "active": false,
                 "keywords": []
             },
             "gn": {
-                "name": "",
+                "name": "General Topology",
                 "active": false,
                 "keywords": []
             },
             "gr": {
-                "name": "",
+                "name": "Group Theory",
                 "active": false,
                 "keywords": []
             },
             "gt": {
-                "name": "",
+                "name": "Geometric Topology",
                 "active": false,
                 "keywords": []
             },
             "ho": {
-                "name": "",
+                "name": "History and Overview",
                 "active": false,
                 "keywords": []
             },
             "it": {
-                "name": "",
+                "name": "Information Theory",
                 "active": false,
                 "keywords": []
             },
             "kt": {
-                "name": "",
+                "name": "K-Theory and Homology",
                 "active": false,
                 "keywords": []
             },
             "lo": {
-                "name": "",
+                "name": "Logic",
                 "active": false,
                 "keywords": []
             },
             "mg": {
-                "name": "",
+                "name": "Metric Geometry",
                 "active": false,
                 "keywords": []
             },
             "mp": {
-                "name": "",
+                "name": "Mathematical Physics",
                 "active": false,
                 "keywords": []
             },
             "na": {
-                "name": "",
+                "name": "Numerical Analysis",
                 "active": false,
                 "keywords": []
             },
             "nt": {
-                "name": "",
+                "name": "Number Theory",
                 "active": false,
                 "keywords": []
             },
             "oa": {
-                "name": "",
+                "name": "Operator Algebras",
                 "active": false,
                 "keywords": []
             },
             "oc": {
-                "name": "",
+                "name": "Optimization and Control",
                 "active": false,
                 "keywords": []
             },
             "pr": {
-                "name": "",
+                "name": "Probability",
                 "active": false,
                 "keywords": []
             },
             "qa": {
-                "name": "",
+                "name": "Quantum Algebra",
                 "active": false,
                 "keywords": []
             },
             "ra": {
-                "name": "",
+                "name": "Rings and Algebras",
                 "active": false,
                 "keywords": []
             },
             "rt": {
-                "name": "",
+                "name": "Representation Theory",
                 "active": false,
                 "keywords": []
             },
             "sg": {
-                "name": "",
+                "name": "Symplectic Geometry",
                 "active": false,
                 "keywords": []
             },
             "sp": {
-                "name": "",
+                "name": "Spectral Theory",
                 "active": false,
                 "keywords": []
             },
             "st": {
-                "name": "",
+                "name": "Statistics Theory",
                 "active": false,
                 "keywords": []
             }
         }
     },
     "astro-ph": {   
-        "name": "",
+        "name": "Astrophysics",
         "active": false,
         "keywords": [],
         "subfields": {
             "co": {
-                "name": "",
+                "name": "Cosmology and Nongalactic Astrophysics",
                 "active": false,
                 "keywords": []
             },
             "ep": {
-                "name": "",
+                "name": "Earth and Planetary Astrophysics",
                 "active": false,
                 "keywords": []
             },
             "ga": {
-                "name": "",
+                "name": "Astrophysics of Galaxies",
                 "active": false,
                 "keywords": []
             },
             "he": {
-                "name": "",
+                "name": "High Energy Astrophysical Phenomena",
                 "active": false,
                 "keywords": []
             },
             "im": {
-                "name": "",
+                "name": "Instrumentation and Methods for Astrophysics",
                 "active": false,
                 "keywords": []
             },
             "sr": {
-                "name": "",
+                "name": "Solar and Stellar Astrophysics",
                 "active": false,
                 "keywords": []
             }
         }
     },
     "cond-mat": {   
-        "name": "",
+        "name": "Condensed Matter",
         "active": false,
         "keywords": [],
         "subfields": {
             "dis-nn": {
-                "name": "",
+                "name": "Disordered Systems and Neural Networks",
                 "active": false,
                 "keywords": []
             },
             "mes-hall": {
-                "name": "",
+                "name": "Mesoscale and Nanoscale Physics",
                 "active": false,
                 "keywords": []
             },
             "mtrl-sci": {
-                "name": "",
+                "name": "Materials Science",
                 "active": false,
                 "keywords": []
             },
             "other": {
-                "name": "",
+                "name": "Other Condensed Matter",
                 "active": false,
                 "keywords": []
             },
             "quant-gas": {
-                "name": "",
+                "name": "Quantum Gases",
                 "active": false,
                 "keywords": []
             },
             "soft": {
-                "name": "",
+                "name": "Soft Condensed Matter",
                 "active": false,
                 "keywords": []
             },
             "stat-mech": {
-                "name": "",
+                "name": "Statistical Mechanics",
                 "active": false,
                 "keywords": []
             },
             "str-el": {
-                "name": "",
+                "name": "trongly Correlated Electrons",
                 "active": false,
                 "keywords": []
             },
             "supr-con": {
-                "name": "",
+                "name": "Superconductivity",
                 "active": false,
                 "keywords": []
             }
         }
     },
     "gr-gc": {      
-        "name": "",
+        "name": "General Relativity and Quantum Cosmology",
         "active": false,
         "keywords": [],
         "subfields": {}
     },
     "hep-ex": {     
-        "name": "",
+        "name": "High Energy Physics - Experiment",
         "active": false,
         "keywords": [],
         "subfields": {}
     },
     "hep-lat": {    
-        "name": "",
+        "name": "High Energy Physics - Lattice",
         "active": false,
         "keywords": [],
         "subfields": {}
     },
     "hep-ph": {     
-        "name": "",
+        "name": "High Energy Physics - Phenomenology",
         "active": false,
         "keywords": [],
         "subfields": {}
     },
     "hep-th": {     
-        "name": "",
+        "name": "High Energy Physics - Theory",
         "active": false,
         "keywords": [],
         "subfields": {}
     },
     "math-ph": {    
-        "name": "",
+        "name": "Mathematical Physics",
         "active": false,
         "keywords": [],
         "subfields": {}
     },
     "nlin": {       
-        "name": "",
+        "name": "Nonlinear Science",
         "active": false,
         "keywords": [],
         "subfields": {
             "ao": {
-                "name": "",
+                "name": "Adaptation and Self-Organizing Systems",
                 "active": false,
                 "keywords": []
             },
             "cd": {
-                "name": "",
+                "name": "Chaotic Dynamics",
                 "active": false,
                 "keywords": []
             },
             "cg": {
-                "name": "",
+                "name": "Cellular Automata and Lattice Gases",
                 "active": false,
                 "keywords": []
             },
             "ps": {
-                "name": "",
+                "name": "Pattern Formation and Solitons",
                 "active": false,
                 "keywords": []
             },
             "si": {
-                "name": "",
+                "name": "Exactly Solvable and Integrable Systems",
                 "active": false,
                 "keywords": []
             }
         }
     },
     "nucl-ex": {    
-        "name": "",
+        "name": "Nuclear Experiment",
         "active": false,
         "keywords": [],
         "subfields": {}
     },
     "nucl-th": {    
-        "name": "",
+        "name": "Nuclear Theory",
         "active": false,
         "keywords": [],
         "subfields": {}
     },
     "physics": {    
-        "name": "",
+        "name": "Physics",
         "active": false,
         "keywords": [],
         "subfields": {
             "acc-ph": {
-                "name": "",
+                "name": "Accelerator Physics",
                 "active": false,
                 "keywords": []
             },
             "ao-ph": {
-                "name": "",
+                "name": "Atmospheric and Oceanic Physics",
                 "active": false,
                 "keywords": []
             },
             "app-ph": {
-                "name": "",
+                "name": "Applied Physics",
                 "active": false,
                 "keywords": []
             },
             "atm-clus": {
-                "name": "",
+                "name": "Atomic and Molecular Clusters",
                 "active": false,
                 "keywords": []
             },
             "atom-ph": {
-                "name": "",
+                "name": "Atomic Physics",
                 "active": false,
                 "keywords": []
             },
             "bio-ph": {
-                "name": "",
+                "name": "Biological Physics",
                 "active": false,
                 "keywords": []
             },
             "chem-ph": {
-                "name": "",
+                "name": "Chemical Physics",
                 "active": false,
                 "keywords": []
             },
             "class-ph": {
-                "name": "",
+                "name": "Classical Physics",
                 "active": false,
                 "keywords": []
             },
             "comp-ph": {
-                "name": "",
+                "name": "Computational Physics",
                 "active": false,
                 "keywords": []
             },
             "data-an": {
-                "name": "",
+                "name": "Data Analysis, Statistics and Probability",
                 "active": false,
                 "keywords": []
             },
             "ed-ph": {
-                "name": "",
+                "name": "Physics Education",
                 "active": false,
                 "keywords": []
             },
             "flu-dyn": {
-                "name": "",
+                "name": "Fluid Dynamics",
                 "active": false,
                 "keywords": []
             },
             "gen-ph": {
-                "name": "",
+                "name": "General Physics",
+                "active": false,
+                "keywords": []
+            },
+            "geo-ph": {
+                "name": "Geophysics",
                 "active": false,
                 "keywords": []
             },
             "hist-ph": {
-                "name": "",
+                "name": "History and Philosophy of Physics",
                 "active": false,
                 "keywords": []
             },
             "ins-det": {
-                "name": "",
+                "name": "Instrumentation and Detectors",
                 "active": false,
                 "keywords": []
             },
             "med-ph": {
-                "name": "",
+                "name": "Medical Physics",
                 "active": false,
                 "keywords": []
             },
             "optics": {
-                "name": "",
+                "name": "Optics",
                 "active": false,
                 "keywords": []
             },
             "plasm-ph": {
-                "name": "",
+                "name": "Plasma Physics",
                 "active": false,
                 "keywords": []
             },
             "pop-ph": {
-                "name": "",
+                "name": "Popular Physics",
                 "active": false,
                 "keywords": []
             },
             "soc-ph": {
-                "name": "",
+                "name": "Physics and Society",
                 "active": false,
                 "keywords": []
             },
             "space-ph": {
-                "name": "",
+                "name": "Space Physics",
                 "active": false,
                 "keywords": []
             }
         }
     },
     "quant-ph": {   
-        "name": "",
+        "name": "Quantum Physics",
         "active": false,
         "keywords": [],
         "subfields": {}
     },
     "q-bio": {
-        "name": "",
+        "name": "Quantitative Biology",
         "active": false,
         "keywords": [],
         "subfields": {
             "bm": {
-                "name": "",
+                "name": "Biomolecules",
                 "active": false,
                 "keywords": []
             },
             "cb": {
-                "name": "",
+                "name": "Cell Behavior",
                 "active": false,
                 "keywords": []
             },
             "gn": {
-                "name": "",
+                "name": "Genomics",
                 "active": false,
                 "keywords": []
             },
             "mn": {
-                "name": "",
+                "name": "Molecular Networks",
                 "active": false,
                 "keywords": []
             },
             "nc": {
-                "name": "",
+                "name": "Neurons and Cognition",
                 "active": false,
                 "keywords": []
             },
             "ot": {
-                "name": "",
+                "name": "Other Quantitative Biology",
                 "active": false,
                 "keywords": []
             },
             "pe": {
-                "name": "",
+                "name": "Populations and Evolution",
                 "active": false,
                 "keywords": []
             },
             "qm": {
-                "name": "",
+                "name": "Quantitative Methods",
                 "active": false,
                 "keywords": []
             },
             "sc": {
-                "name": "",
+                "name": "Subcellular Processes",
                 "active": false,
                 "keywords": []
             },
             "to": {
-                "name": "",
+                "name": "Tissues and Organs",
                 "active": false,
                 "keywords": []
             }
         }
     },
     "q-fin": {      
-        "name": "",
+        "name": "Quantitative Finance",
         "active": false,
         "keywords": [],
         "subfields": {
             "cp": {
-                "name": "",
+                "name": "Computational Finance",
                 "active": false,
                 "keywords": []
             },
             "ec": {
-                "name": "",
+                "name": "Economics",
                 "active": false,
                 "keywords": []
             },
             "gn": {
-                "name": "",
+                "name": "General Finance",
                 "active": false,
                 "keywords": []
             },
             "mf": {
-                "name": "",
+                "name": "Mathematical Finance",
                 "active": false,
                 "keywords": []
             },
             "pm": {
-                "name": "",
+                "name": "Portfolio Management",
                 "active": false,
                 "keywords": []
             },
             "pr": {
-                "name": "",
+                "name": "Pricing of Securities",
                 "active": false,
                 "keywords": []
             },
             "rm": {
-                "name": "",
+                "name": "Risk Management",
                 "active": false,
                 "keywords": []
             },
             "st": {
-                "name": "",
+                "name": "Statistical Finance",
                 "active": false,
                 "keywords": []
             },
             "tr": {
-                "name": "",
+                "name": "Trading and Market Microstructure",
                 "active": false,
                 "keywords": []
             }
