@@ -31,9 +31,9 @@ Relevant papers are automatically stored in JSON for later browsing or integrati
 └── requirements.txt
 ```
 
-## Preferences
+## Preference
 
-Edit the ``data/feed_preference.json`` to choose your fields and keywords. The only fields that should be modified are the ``active`` to fetch papers from that category/subcategory, and the ``keywords`` to filter the fetched papers. Example:
+Edit the ``config/feed_preference.json`` to choose your fields and keywords. The only fields that should be modified are the ``active`` to fetch papers from that category/subcategory, and the ``keywords`` to filter the fetched papers. Example:
 
 ```json
 {
@@ -86,16 +86,22 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-4. Run the script:
+4. Customize feed preference as mentioned above in the [Preference section](#preference):
+
+```bash
+config/feed_preference.json
+```
+
+5. Run the script:
 
 ```bash
 python scripts/extract_and_save.py
 ```
 
-5. View results in:
+6. View results in:
 
 ```bash
-data/filtered_papers.json
+data/filtered_papers_{date}.json
 ```
 
 ## Upcoming Upgrades
