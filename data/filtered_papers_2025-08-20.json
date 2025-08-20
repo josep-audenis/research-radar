@@ -1,0 +1,341 @@
+[
+  {
+    "title": "Contextual Attention-Based Multimodal Fusion of LLM and CNN for Sentiment Analysis",
+    "autor/s": "Meriem Zerkouk, Miloud Mihoubi, Belkacem Chikhaoui",
+    "link": "https://arxiv.org/abs/2508.13196",
+    "abstract": "This paper introduces a novel approach for multimodal sentiment analysis on social media, particularly in the context of natural disasters, where understanding public sentiment is crucial for effective crisis management. Unlike conventional methods that process text and image modalities separately, our approach seamlessly integrates Convolutional Neural Network (CNN) based image analysis with Large Language Model (LLM) based text processing, leveraging Generative Pre-trained Transformer (GPT) and prompt engineering to extract sentiment relevant features from the CrisisMMD dataset. To effectively model intermodal relationships, we introduce a contextual attention mechanism within the fusion process. Leveraging contextual-attention layers, this mechanism effectively captures intermodality interactions, enhancing the model's comprehension of complex relationships between textual and visual data. The deep neural network architecture of our model learns from these fused features, leading to improved accuracy compared to existing baselines. Experimental results demonstrate significant advancements in classifying social media data into informative and noninformative categories across various natural disasters. Our model achieves a notable 2.43% increase in accuracy and 5.18% in F1-score, highlighting its efficacy in processing complex multimodal data. Beyond quantitative metrics, our approach provides deeper insight into the sentiments expressed during crises. The practical implications extend to real time disaster management, where enhanced sentiment analysis can optimize the accuracy of emergency interventions. By bridging the gap between multimodal analysis, LLM powered text understanding, and disaster response, our work presents a promising direction for Artificial Intelligence (AI) driven crisis management solutions. Keywords:",
+    "published": "Wed, 20 Aug 2025 00:00:00 -0400",
+    "categories": [
+      "Computer Science - Machine Learning (cs.lg)",
+      "Computer Science - Artificial Intelligence (cs.ai)",
+      "Computer Science - Information Retrieval (cs.ir)"
+    ],
+    "is_new": true
+  },
+  {
+    "title": "QuickMerge++: Fast Token Merging with Autoregressive Prior",
+    "autor/s": "Dong Liu, Yanxuan Yu",
+    "link": "https://arxiv.org/abs/2508.13204",
+    "abstract": "As generative models scale to larger inputs across language, vision, and video domains, the cost of token-level computation has become a key bottleneck. While prior work suggests that only a subset of tokens significantly influence downstream predictions, most token selection methods are static, modality-specific, or incompatible with autoregressive generation. In this paper, we propose QuickMerge, a lightweight token merging framework designed for efficient next-token prediction.\n  QuickMerge dynamically selects a reduced number of tokens based on attention norm magnitude, guided by an entropy-based budget estimator. To preserve autoregressive compatibility, we introduce a lightweight transformer prior trained over the merged token sequence. By combining semantic salience estimation, flexible token budgets, and AR alignment, QuickMerge enables accurate generation with fewer tokens.\n  We evaluate QuickMerge across multi-modality domains, demonstrating consistent improvements in compute-accuracy tradeoffs. Specifically, QuickMerge reduces token counts sustantially while matching as well as exceeding the performance of learned tokenizers and fixed-patch baselines.",
+    "published": "Wed, 20 Aug 2025 00:00:00 -0400",
+    "categories": [
+      "Computer Science - Artificial Intelligence (cs.ai)"
+    ],
+    "is_new": true
+  },
+  {
+    "title": "TASER: Table Agents for Schema-guided Extraction and Recommendation",
+    "autor/s": "Nicole Cho, Kirsty Fielding, William Watson, Sumitra Ganesh, Manuela Veloso",
+    "link": "https://arxiv.org/abs/2508.13404",
+    "abstract": "Real-world financial documents report essential information about an entity's financial holdings that can span millions of different financial instrument types. Yet, these details are often buried in messy, multi-page, fragmented tables - for example, 99.4% of the tables in our dataset have no bounding boxes with the maximum number of rows amounting to 426 per table across 44 pages. To tackle these unique challenges from real-world tables, we present a continuously learning, agentic table extraction system, TASER (Table Agents for Schema-guided Extraction and Recommendation) that extracts highly unstructured, multi-page, heterogeneous tables into normalized, schema-conforming outputs. Our table agents execute on table detection, classification, extraction, and recommendations by leveraging an initial schema. Then, our Recommender Agent reviews the outputs, recommends schema revisions, and decides on the final recommendations, enabling TASER to outperform existing table detection models such as Table Transformer by 10.1%. Within this continuous learning process, we highlight that larger batch sizes result in a 104.3% increase in schema recommendations that are actionable and utilized, resulting in a 9.8% increase in extracted holdings - highlighting the importance of a continuous learning process. To train TASER, we have manually labeled 22,584 pages (28,150,449 tokens), 3,213 tables for $731,685,511,687 of holdings culminating in one of the first real financial table datasets. We release our dataset TASERTab to enable the research community to access real-world financial tables and outputs. Our results highlight the promise of agentic, schema-guided extraction systems for robust understanding of real-world financial tables.",
+    "published": "Wed, 20 Aug 2025 00:00:00 -0400",
+    "categories": [
+      "Computer Science - Artificial Intelligence (cs.ai)",
+      "Computer Science - Computation and Language (cs.cl)",
+      "Computer Science - Information Retrieval (cs.ir)",
+      "Computer Science - Machine Learning (cs.lg)"
+    ],
+    "is_new": true
+  },
+  {
+    "title": "STPFormer: A State-of-the-Art Pattern-Aware Spatio-Temporal Transformer for Traffic Forecasting",
+    "autor/s": "Jiayu Fang, Zhiqi Shao, S T Boris Choy, Junbin Gao",
+    "link": "https://arxiv.org/abs/2508.13433",
+    "abstract": "Spatio-temporal traffic forecasting is challenging due to complex temporal patterns, dynamic spatial structures, and diverse input formats. Although Transformer-based models offer strong global modeling, they often struggle with rigid temporal encoding and weak space-time fusion. We propose STPFormer, a Spatio-Temporal Pattern-Aware Transformer that achieves state-of-the-art performance via unified and interpretable representation learning. It integrates four modules: Temporal Position Aggregator (TPA) for pattern-aware temporal encoding, Spatial Sequence Aggregator (SSA) for sequential spatial learning, Spatial-Temporal Graph Matching (STGM) for cross-domain alignment, and an Attention Mixer for multi-scale fusion. Experiments on five real-world datasets show that STPFormer consistently sets new SOTA results, with ablation and visualizations confirming its effectiveness and generalizability.",
+    "published": "Wed, 20 Aug 2025 00:00:00 -0400",
+    "categories": [
+      "Computer Science - Artificial Intelligence (cs.ai)"
+    ],
+    "is_new": true
+  },
+  {
+    "title": "EventTSF: Event-Aware Non-Stationary Time Series Forecasting",
+    "autor/s": "Yunfeng Ge, Ming Jin, Yiji Zhao, Hongyan Li, Bo Du, Chang Xu, Shirui Pan",
+    "link": "https://arxiv.org/abs/2508.13434",
+    "abstract": "Time series forecasting plays a vital role in critical domains like energy and transportation, where non-stationary dynamics are deeply intertwined with events in other modalities such as texts. However, incorporating natural language-based external events to improve non-stationary forecasting remains largely unexplored, as most approaches still rely on a single modality, resulting in limited contextual knowledge and model underperformance. Enabling fine-grained multimodal interactions between temporal and textual data is challenged by three fundamental issues: (1) the difficulty of fine-grained synchronization between time-varying discrete textual events and continuous time series; (2) the inherent temporal uncertainty introduced by textual semantics; and (3) the misalignment between textual event embeddings and multi-resolution temporal patterns. In this work, we address these challenges by introducing event-aware non-stationary time series forecasting (EventTSF), an autoregressive generation framework that integrates historical time series with textual events to make subsequent forecasts. Specifically, EventTSF uses autoregressive diffusion with flow matching at each step to capture nuanced temporal-event interactions. To handle event-induced uncertainty, flow matching timesteps are adaptively controlled according to event semantic signals. The underlying denoiser employs a multimodal U-shaped diffusion transformer that efficiently fuses temporal and textual modalities across different resolutions. Extensive experiments on 8 synthetic and real-world datasets show that EventTSF outperforms 12 baselines across diverse event-aware non-stationary time series forecasting scenarios, achieving substantial improvements of 10.7% higher forecasting accuracy and $1.13\\times$ faster training efficiency.",
+    "published": "Wed, 20 Aug 2025 00:00:00 -0400",
+    "categories": [
+      "Computer Science - Machine Learning (cs.lg)",
+      "Computer Science - Artificial Intelligence (cs.ai)"
+    ],
+    "is_new": true
+  },
+  {
+    "title": "SVDformer: Direction-Aware Spectral Graph Embedding Learning via SVD and Transformer",
+    "autor/s": "Jiayu Fang, Zhiqi Shao, S T Boris Choy, Junbin Gao",
+    "link": "https://arxiv.org/abs/2508.13435",
+    "abstract": "Directed graphs are widely used to model asymmetric relationships in real-world systems. However, existing directed graph neural networks often struggle to jointly capture directional semantics and global structural patterns due to their isotropic aggregation mechanisms and localized filtering mechanisms. To address this limitation, this paper proposes SVDformer, a novel framework that synergizes SVD and Transformer architecture for direction-aware graph representation learning. SVDformer first refines singular value embeddings through multi-head self-attention, adaptively enhancing critical spectral components while suppressing high-frequency noise. This enables learnable low-pass/high-pass graph filtering without requiring spectral kernels. Furthermore, by treating singular vectors as directional projection bases and singular values as scaling factors, SVDformer uses the Transformer to model multi-scale interactions between incoming/outgoing edge patterns through attention weights, thereby explicitly preserving edge directionality during feature propagation. Extensive experiments on six directed graph benchmarks demonstrate that SVDformer consistently outperforms state-of-the-art GNNs and direction-aware baselines on node classification tasks, establishing a new paradigm for learning representations on directed graphs.",
+    "published": "Wed, 20 Aug 2025 00:00:00 -0400",
+    "categories": [
+      "Computer Science - Machine Learning (cs.lg)",
+      "Computer Science - Artificial Intelligence (cs.ai)"
+    ],
+    "is_new": true
+  },
+  {
+    "title": "Text2Weight: Bridging Natural Language and Neural Network Weight Spaces",
+    "autor/s": "Bowen Tian, Wenshuo Chen, Zexi Li, Songning Lai, Jiemin Wu, Yutao Yue",
+    "link": "https://arxiv.org/abs/2508.13633",
+    "abstract": "How far are we really from automatically generating neural networks? While neural network weight generation shows promise, current approaches struggle with generalization to unseen tasks and practical application exploration. To address this, we propose T2W, a diffusion transformer framework that generates task-specific weights conditioned on natural language descriptions. T2W hierarchically processes network parameters into uniform blocks, integrates text embeddings from CLIP via a prior attention mechanism, and employs adversarial training with weight-space augmentation to enhance generalization. Experiments on Cifar100, Caltech256, and TinyImageNet demonstrate T2W's ability to produce high-quality weights for unseen tasks, outperforming optimization-based initialization and enabling novel applications such as weight enhancement and text-guided model fusion. Our work bridges textual semantics with weight-space dynamics, supported by an open-source dataset of text-weight pairs, advancing the practicality of generative models in neural network parameter synthesis. Our code is available on Github.",
+    "published": "Wed, 20 Aug 2025 00:00:00 -0400",
+    "categories": [
+      "Computer Science - Machine Learning (cs.lg)"
+    ],
+    "is_new": true
+  },
+  {
+    "title": "Trans-XFed: An Explainable Federated Learning for Supply Chain Credit Assessment",
+    "autor/s": "Jie Shi, Arno P. J. M. Siebes, Siamak Mehrkanoon",
+    "link": "https://arxiv.org/abs/2508.13715",
+    "abstract": "This paper proposes a Trans-XFed architecture that combines federated learning with explainable AI techniques for supply chain credit assessment. The proposed model aims to address several key challenges, including privacy, information silos, class imbalance, non-identically and independently distributed (Non-IID) data, and model interpretability in supply chain credit assessment. We introduce a performance-based client selection strategy (PBCS) to tackle class imbalance and Non-IID problems. This strategy achieves faster convergence by selecting clients with higher local F1 scores. The FedProx architecture, enhanced with homomorphic encryption, is used as the core model, and further incorporates a transformer encoder. The transformer encoder block provides insights into the learned features. Additionally, we employ the integrated gradient explainable AI technique to offer insights into decision-making. We demonstrate the effectiveness of Trans-XFed through experimental evaluations on real-world supply chain datasets. The obtained results show its ability to deliver accurate credit assessments compared to several baselines, while maintaining transparency and privacy.",
+    "published": "Wed, 20 Aug 2025 00:00:00 -0400",
+    "categories": [
+      "Computer Science - Machine Learning (cs.lg)",
+      "Computer Science - Distributed, Parallel, and Cluster Computing (cs.dc)"
+    ],
+    "is_new": true
+  },
+  {
+    "title": "PENGUIN: Enhancing Transformer with Periodic-Nested Group Attention for Long-term Time Series Forecasting",
+    "autor/s": "Tian Sun, Yuqi Chen, Weiwei Sun",
+    "link": "https://arxiv.org/abs/2508.13773",
+    "abstract": "Long-term time series forecasting (LTSF) is a fundamental task with wide-ranging applications. Although Transformer-based models have made significant breakthroughs in forecasting, their effectiveness for time series forecasting remains debatable. In this paper, we revisit the significance of self-attention and propose a simple yet effective mechanism, Periodic-Nested Group Attention, namely PENGUIN. Our approach highlights the importance of explicitly modeling periodic patterns and incorporating relative attention bias for effective time series modeling. To this end, we introduce a periodic-nested relative attention bias that captures periodic structures directly. To handle multiple coexisting periodicities (e.g., daily and weekly cycles), we design a grouped attention mechanism, where each group targets a specific periodicity using a multi-query attention mechanism. Extensive experiments across diverse benchmarks demonstrate that PENGUIN consistently outperforms both MLP-based and Transformer-based models.",
+    "published": "Wed, 20 Aug 2025 00:00:00 -0400",
+    "categories": [
+      "Computer Science - Machine Learning (cs.lg)",
+      "Computer Science - Artificial Intelligence (cs.ai)"
+    ],
+    "is_new": true
+  },
+  {
+    "title": "A Fully Transformer Based Multimodal Framework for Explainable Cancer Image Segmentation Using Radiology Reports",
+    "autor/s": "Enobong Adahada, Isabel Sassoon, Kate Hone, Yongmin Li",
+    "link": "https://arxiv.org/abs/2508.13796",
+    "abstract": "We introduce Med-CTX, a fully transformer based multimodal framework for explainable breast cancer ultrasound segmentation. We integrate clinical radiology reports to boost both performance and interpretability. Med-CTX achieves exact lesion delineation by using a dual-branch visual encoder that combines ViT and Swin transformers, as well as uncertainty aware fusion. Clinical language structured with BI-RADS semantics is encoded by BioClinicalBERT and combined with visual features utilising cross-modal attention, allowing the model to provide clinically grounded, model generated explanations. Our methodology generates segmentation masks, uncertainty maps, and diagnostic rationales all at once, increasing confidence and transparency in computer assisted diagnosis. On the BUS-BRA dataset, Med-CTX achieves a Dice score of 99% and an IoU of 95%, beating existing baselines U-Net, ViT, and Swin. Clinical text plays a key role in segmentation accuracy and explanation quality, as evidenced by ablation studies that show a -5.4% decline in Dice score and -31% in CIDEr. Med-CTX achieves good multimodal alignment (CLIP score: 85%) and increased confi dence calibration (ECE: 3.2%), setting a new bar for trustworthy, multimodal medical architecture.",
+    "published": "Wed, 20 Aug 2025 00:00:00 -0400",
+    "categories": [
+      "Computer Science - Computer Vision and Pattern Recognition (cs.cv)",
+      "Computer Science - Artificial Intelligence (cs.ai)"
+    ],
+    "is_new": true
+  },
+  {
+    "title": "Revisiting RAG Ensemble: A Theoretical and Mechanistic Analysis of Multi-RAG System Collaboration",
+    "autor/s": "Yifei Chen, Guanting Dong, Yutao Zhu, Zhicheng Dou",
+    "link": "https://arxiv.org/abs/2508.13828",
+    "abstract": "Retrieval-Augmented Generation (RAG) technology has been widely applied in recent years. However, despite the emergence of various RAG frameworks, a single RAG framework still cannot adapt well to a broad range of downstream tasks. Therefore, how to leverage the advantages of multiple RAG systems has become an area worth exploring. To address this issue, we have conducted a comprehensive and systematic investigation into ensemble methods based on RAG systems. Specifically, we have analyzed the RAG ensemble framework from both theoretical and mechanistic analysis perspectives. From the theoretical analysis, we provide the first explanation of the RAG ensemble framework from the perspective of information entropy. In terms of mechanism analysis, we have explored the RAG ensemble framework from both the pipeline and module levels. We carefully select four different pipelines (Branching, Iterative, Loop, and Agentic) and three different modules (Generator, Retriever, and Reranker) to solve seven different research questions. The experiments show that aggregating multiple RAG systems is both generalizable and robust, whether at the pipeline level or the module level. Our work lays the foundation for similar research on the multi-RAG system ensemble.",
+    "published": "Wed, 20 Aug 2025 00:00:00 -0400",
+    "categories": [
+      "Computer Science - Artificial Intelligence (cs.ai)"
+    ],
+    "is_new": true
+  },
+  {
+    "title": "Automated Energy-Aware Time-Series Model Deployment on Embedded FPGAs for Resilient Combined Sewer Overflow Management",
+    "autor/s": "Tianheng Ling, Vipin Singh, Chao Qian, Felix Biessmann, Gregor Schiele",
+    "link": "https://arxiv.org/abs/2508.13905",
+    "abstract": "Extreme weather events, intensified by climate change, increasingly challenge aging combined sewer systems, raising the risk of untreated wastewater overflow. Accurate forecasting of sewer overflow basin filling levels can provide actionable insights for early intervention, helping mitigating uncontrolled discharge. In recent years, AI-based forecasting methods have offered scalable alternatives to traditional physics-based models, but their reliance on cloud computing limits their reliability during communication outages. To address this, we propose an end-to-end forecasting framework that enables energy-efficient inference directly on edge devices. Our solution integrates lightweight Transformer and Long Short-Term Memory (LSTM) models, compressed via integer-only quantization for efficient on-device execution. Moreover, an automated hardware-aware deployment pipeline is used to search for optimal model configurations by jointly minimizing prediction error and energy consumption on an AMD Spartan-7 XC7S15 FPGA. Evaluated on real-world sewer data, the selected 8-bit Transformer model, trained on 24 hours of historical measurements, achieves high accuracy (MSE 0.0376) at an energy cost of 0.370 mJ per inference. In contrast, the optimal 8-bit LSTM model requires significantly less energy (0.009 mJ, over 40x lower) but yields 14.89% worse accuracy (MSE 0.0432) and much longer training time. This trade-off highlights the need to align model selection with deployment priorities, favoring LSTM for ultra-low energy consumption or Transformer for higher predictive accuracy. In general, our work enables local, energy-efficient forecasting, contributing to more resilient combined sewer systems. All code can be found in the GitHub Repository (https://github.com/tianheng-ling/EdgeOverflowForecast).",
+    "published": "Wed, 20 Aug 2025 00:00:00 -0400",
+    "categories": [
+      "Computer Science - Machine Learning (cs.lg)"
+    ],
+    "is_new": true
+  },
+  {
+    "title": "ASDFormer: A Transformer with Mixtures of Pooling-Classifier Experts for Robust Autism Diagnosis and Biomarker Discovery",
+    "autor/s": "Mohammad Izadi, Mehran Safayani",
+    "link": "https://arxiv.org/abs/2508.14005",
+    "abstract": "Autism Spectrum Disorder (ASD) is a complex neurodevelopmental condition marked by disruptions in brain connectivity. Functional MRI (fMRI) offers a non-invasive window into large-scale neural dynamics by measuring blood-oxygen-level-dependent (BOLD) signals across the brain. These signals can be modeled as interactions among Regions of Interest (ROIs), which are grouped into functional communities based on their underlying roles in brain function. Emerging evidence suggests that connectivity patterns within and between these communities are particularly sensitive to ASD-related alterations. Effectively capturing these patterns and identifying interactions that deviate from typical development is essential for improving ASD diagnosis and enabling biomarker discovery. In this work, we introduce ASDFormer, a Transformer-based architecture that incorporates a Mixture of Pooling-Classifier Experts (MoE) to capture neural signatures associated with ASD. By integrating multiple specialized expert branches with attention mechanisms, ASDFormer adaptively emphasizes different brain regions and connectivity patterns relevant to autism. This enables both improved classification performance and more interpretable identification of disorder-related biomarkers. Applied to the ABIDE dataset, ASDFormer achieves state-of-the-art diagnostic accuracy and reveals robust insights into functional connectivity disruptions linked to ASD, highlighting its potential as a tool for biomarker discovery.",
+    "published": "Wed, 20 Aug 2025 00:00:00 -0400",
+    "categories": [
+      "Computer Science - Machine Learning (cs.lg)",
+      "Computer Science - Artificial Intelligence (cs.ai)"
+    ],
+    "is_new": true
+  },
+  {
+    "title": "DegDiT: Controllable Audio Generation with Dynamic Event Graph Guided Diffusion Transformer",
+    "autor/s": "Yisu Liu, Chenxing Li, Wanqian Zhang, Wenfu Wang, Meng Yu, Ruibo Fu, Zheng Lin, Weiping Wang, Dong Yu",
+    "link": "https://arxiv.org/abs/2508.13786",
+    "abstract": "Controllable text-to-audio generation aims to synthesize audio from textual descriptions while satisfying user-specified constraints, including event types, temporal sequences, and onset and offset timestamps. This enables precise control over both the content and temporal structure of the generated audio. Despite recent progress, existing methods still face inherent trade-offs among accurate temporal localization, open-vocabulary scalability, and practical efficiency. To address these challenges, we propose DegDiT, a novel dynamic event graph-guided diffusion transformer framework for open-vocabulary controllable audio generation. DegDiT encodes the events in the description as structured dynamic graphs. The nodes in each graph are designed to represent three aspects: semantic features, temporal attributes, and inter-event connections. A graph transformer is employed to integrate these nodes and produce contextualized event embeddings that serve as guidance for the diffusion model. To ensure high-quality and diverse training data, we introduce a quality-balanced data selection pipeline that combines hierarchical event annotation with multi-criteria quality scoring, resulting in a curated dataset with semantic diversity. Furthermore, we present consensus preference optimization, facilitating audio generation through consensus among multiple reward signals. Extensive experiments on AudioCondition, DESED, and AudioTime datasets demonstrate that DegDiT achieves state-of-the-art performances across a variety of objective and subjective evaluation metrics.",
+    "published": "Wed, 20 Aug 2025 00:00:00 -0400",
+    "categories": [
+      "Computer Science - Sound (cs.sd)",
+      "Computer Science - Artificial Intelligence (cs.ai)"
+    ],
+    "is_new": false
+  },
+  {
+    "title": "Toward Deployable Multi-Robot Collaboration via a Symbolically-Guided Decision Transformer",
+    "autor/s": "Rathnam Vidushika Rasanji, Jin Wei-Kocsis, Jiansong Zhang, Dongming Gan, Ragu Athinarayanan, Paul Asunda",
+    "link": "https://arxiv.org/abs/2508.13877",
+    "abstract": "Reinforcement learning (RL) has demonstrated great potential in robotic operations. However, its data-intensive nature and reliance on the Markov Decision Process (MDP) assumption limit its practical deployment in real-world scenarios involving complex dynamics and long-term temporal dependencies, such as multi-robot manipulation. Decision Transformers (DTs) have emerged as a promising offline alternative by leveraging causal transformers for sequence modeling in RL tasks. However, their applications to multi-robot manipulations still remain underexplored. To address this gap, we propose a novel framework, Symbolically-Guided Decision Transformer (SGDT), which integrates a neuro-symbolic mechanism with a causal transformer to enable deployable multi-robot collaboration. In the proposed SGDT framework, a neuro-symbolic planner generates a high-level task-oriented plan composed of symbolic subgoals. Guided by these subgoals, a goal-conditioned decision transformer (GCDT) performs low-level sequential decision-making for multi-robot manipulation. This hierarchical architecture enables structured, interpretable, and generalizable decision making in complex multi-robot collaboration tasks. We evaluate the performance of SGDT across a range of task scenarios, including zero-shot and few-shot scenarios. To our knowledge, this is the first work to explore DT-based technology for multi-robot manipulation.",
+    "published": "Wed, 20 Aug 2025 00:00:00 -0400",
+    "categories": [
+      "Computer Science - Robotics (cs.ro)",
+      "Computer Science - Artificial Intelligence (cs.ai)"
+    ],
+    "is_new": false
+  },
+  {
+    "title": "Fusing Echocardiography Images and Medical Records for Continuous Patient Stratification",
+    "autor/s": "Nathan Painchaud, J\\'er\\'emie Stym-Popper, Pierre-Yves Courand, Nicolas Thome, Pierre-Marc Jodoin, Nicolas Duchateau, Olivier Bernard",
+    "link": "https://arxiv.org/abs/2401.07796",
+    "abstract": "Deep learning enables automatic and robust extraction of cardiac function descriptors from echocardiographic sequences, such as ejection fraction or strain. These descriptors provide fine-grained information that physicians consider, in conjunction with more global variables from the clinical record, to assess patients' condition. Drawing on novel Transformer models applied to tabular data, we propose a method that considers all descriptors extracted from medical records and echocardiograms to learn the representation of a cardiovascular pathology with a difficult-to-characterize continuum, namely hypertension. Our method first projects each variable into its own representation space using modality-specific approaches. These standardized representations of multimodal data are then fed to a Transformer encoder, which learns to merge them into a comprehensive representation of the patient through the task of predicting a clinical rating. This stratification task is formulated as an ordinal classification to enforce a pathological continuum in the representation space. We observe the major trends along this continuum on a cohort of 239 hypertensive patients, providing unprecedented details in the description of hypertension's impact on various cardiac function descriptors. Our analysis shows that i) the XTab foundation model's architecture allows to reach outstanding performance (96.8% AUROC) even with limited data (less than 200 training samples), ii) stratification across the population is reproducible between trainings (within 5.7% mean absolute error), and iii) patterns emerge in descriptors, some of which align with established physiological knowledge about hypertension, while others could pave the way for a more comprehensive understanding of this pathology. Code is available at https://github.com/creatis-myriad/didactic.",
+    "published": "Wed, 20 Aug 2025 00:00:00 -0400",
+    "categories": [
+      "Computer Science - Computer Vision and Pattern Recognition (cs.cv)",
+      "Computer Science - Artificial Intelligence (cs.ai)",
+      "Computer Science - Machine Learning (cs.lg)"
+    ],
+    "is_new": false
+  },
+  {
+    "title": "Flexible Operator Fusion for Fast Sparse Transformer with Diverse Masking on GPU",
+    "autor/s": "Wenhao Dai, Haodong Deng, Mengfei Rong, Xinyu Yang, Hongyu Liu, Fangxin Liu, Hailong Yang, Qianwen Cao, Qingxiao Sun",
+    "link": "https://arxiv.org/abs/2506.06095",
+    "abstract": "Large language models are popular around the world due to their powerful understanding capabilities. As the core component of LLMs, accelerating Transformer through parallelization has gradually become a hot research topic. Mask layers introduce sparsity into Transformer to reduce calculations. However, previous works rarely focus on the performance optimization of sparse Transformer. Moreover, rule-based mechanisms ignore the fusion opportunities of mixed-type operators and fail to adapt to various sequence lengths. To address the above problems, we propose STOF, a framework that incorporates optimizations for Sparse Transformer via flexible masking and operator fusion on GPU. We firstly unify the storage format and kernel implementation for the multi-head attention. Then, we map fusion schemes to compilation templates and determine the optimal parameter setting through a two-stage search engine. The experimental results show that compared to the state-of-the-art work, STOF achieves maximum speedups of 1.7x in MHA computation and 1.5x in end-to-end inference.",
+    "published": "Wed, 20 Aug 2025 00:00:00 -0400",
+    "categories": [
+      "Computer Science - Machine Learning (cs.lg)"
+    ],
+    "is_new": false
+  },
+  {
+    "title": "PinFM: Foundation Model for User Activity Sequences at a Billion-scale Visual Discovery Platform",
+    "autor/s": "Xiangyi Chen, Kousik Rajesh, Matthew Lawhon, Zelun Wang, Hanyu Li, Haomiao Li, Saurabh Vishwas Joshi, Pong Eksombatchai, Jaewon Yang, Yi-Ping Hsu, Jiajing Xu, Charles Rosenberg",
+    "link": "https://arxiv.org/abs/2507.12704",
+    "abstract": "User activity sequences have emerged as one of the most important signals in recommender systems. We present a foundational model, PinFM, for understanding user activity sequences across multiple applications at a billion-scale visual discovery platform. We pretrain a transformer model with 20B+ parameters using extensive user activity data, then fine-tune it for specific applications, efficiently coupling it with existing models. While this pretraining-and-fine-tuning approach has been popular in other domains, such as Vision and NLP, its application in industrial recommender systems presents numerous challenges. The foundational model must be scalable enough to score millions of items every second while meeting tight cost and latency constraints imposed by these systems. Additionally, it should capture the interactions between user activities and other features and handle new items that were not present during the pretraining stage.\n  We developed innovative techniques to address these challenges. Our infrastructure and algorithmic optimizations, such as the Deduplicated Cross-Attention Transformer (DCAT), improved our throughput by 600% on Pinterest internal data. We demonstrate that PinFM can learn interactions between user sequences and candidate items by altering input sequences, leading to a 20% increase in engagement with new items. PinFM is now deployed to help improve the experience of more than a half billion users across various applications.",
+    "published": "Wed, 20 Aug 2025 00:00:00 -0400",
+    "categories": [
+      "Computer Science - Machine Learning (cs.lg)",
+      "Computer Science - Information Retrieval (cs.ir)"
+    ],
+    "is_new": false
+  },
+  {
+    "title": "Spatial-Temporal Transformer with Curriculum Learning for EEG-Based Emotion Recognition",
+    "autor/s": "Xuetao Lin (Beihang University, Beijing, China, SKLCCSE, Beijing, China), Tianhao Peng (Beihang University, Beijing, China, SKLCCSE, Beijing, China), Peihong Dai (Beihang University, Beijing, China, SKLCCSE, Beijing, China), Yu Liang (Beijing University of Technology, Beijing, China), Wenjun Wu (Beihang University, Beijing, China, SKLCCSE, Beijing, China)",
+    "link": "https://arxiv.org/abs/2507.14698",
+    "abstract": "EEG-based emotion recognition plays an important role in developing adaptive brain-computer communication systems, yet faces two fundamental challenges in practical implementations: (1) effective integration of non-stationary spatial-temporal neural patterns, (2) robust adaptation to dynamic emotional intensity variations in real-world scenarios. This paper proposes SST-CL, a novel framework integrating spatial-temporal transformers with curriculum learning. Our method introduces two core components: a spatial encoder that models inter-channel relationships and a temporal encoder that captures multi-scale dependencies through windowed attention mechanisms, enabling simultaneous extraction of spatial correlations and temporal dynamics from EEG signals. Complementing this architecture, an intensity-aware curriculum learning strategy progressively guides training from high-intensity to low-intensity emotional states through dynamic sample scheduling based on a dual difficulty assessment. Comprehensive experiments on three benchmark datasets demonstrate state-of-the-art performance across various emotional intensity levels, with ablation studies confirming the necessity of both architectural components and the curriculum learning mechanism.",
+    "published": "Wed, 20 Aug 2025 00:00:00 -0400",
+    "categories": [
+      "Computer Science - Machine Learning (cs.lg)",
+      "Computer Science - Artificial Intelligence (cs.ai)",
+      "Computer Science - Human-Computer Interaction (cs.hc)",
+      "Electrical Engineering and Systems Science - Signal Processing (eess.sp)"
+    ],
+    "is_new": false
+  },
+  {
+    "title": "FlowState: Sampling Rate Invariant Time Series Forecasting",
+    "autor/s": "Lars Graf, Thomas Ortner, Stanis{\\l}aw Wo\\'zniak, Angeliki Pantazi",
+    "link": "https://arxiv.org/abs/2508.05287",
+    "abstract": "Foundation models (FMs) have transformed natural language processing, but their success has not yet translated to time series forecasting. Existing time series foundation models (TSFMs), often based on transformer variants, struggle with generalization across varying context and target lengths, lack adaptability to different sampling rates, and are computationally inefficient. We introduce FlowState, a novel TSFM architecture that addresses these challenges through two key innovations: a state space model (SSM) based encoder and a functional basis decoder. This design enables continuous-time modeling and dynamic time-scale adjustment, allowing FlowState to inherently generalize across all possible temporal resolutions, and dynamically adjust the forecasting horizons. In contrast to other state-of-the-art TSFMs, which require training data across all possible sampling rates to memorize patterns at each scale, FlowState inherently adapts its internal dynamics to the input scale, enabling smaller models, reduced data requirements, and improved efficiency. We further propose an efficient pretraining strategy that improves robustness and accelerates training. Despite being the smallest model, FlowState outperforms all other models and is state-of-the-art for the GIFT-ZS and the Chronos-ZS benchmarks. Ablation studies confirm the effectiveness of its components, and we demonstrate its unique ability to adapt online to varying input sampling rates.",
+    "published": "Wed, 20 Aug 2025 00:00:00 -0400",
+    "categories": [
+      "Computer Science - Machine Learning (cs.lg)",
+      "Computer Science - Artificial Intelligence (cs.ai)"
+    ],
+    "is_new": false
+  },
+  {
+    "title": "Towards Theoretical Understanding of Transformer Test-Time Computing: Investigation on In-Context Linear Regression",
+    "autor/s": "Xingwu Chen, Miao Lu, Beining Wu, Difan Zou",
+    "link": "https://arxiv.org/abs/2508.07571",
+    "abstract": "Using more test-time computation during language model inference, such as generating more intermediate thoughts or sampling multiple candidate answers, has proven effective in significantly improving model performance. This paper takes an initial step toward bridging the gap between practical language model inference and theoretical transformer analysis by incorporating randomness and sampling. We focus on in-context linear regression with continuous/binary coefficients, where our framework simulates language model decoding through noise injection and binary coefficient sampling. Through this framework, we provide detailed analyses of widely adopted inference techniques. Supported by empirical results, our theoretical framework and analysis demonstrate the potential for offering new insights into understanding inference behaviors in real-world language models.",
+    "published": "Wed, 20 Aug 2025 00:00:00 -0400",
+    "categories": [
+      "Computer Science - Machine Learning (cs.lg)",
+      "Computer Science - Artificial Intelligence (cs.ai)"
+    ],
+    "is_new": false
+  },
+  {
+    "title": "To Theoretically Understand Transformer-Based In-Context Learning for Optimizing CSMA",
+    "autor/s": "Shugang Hao, Hongbo Li, Lingjie Duan",
+    "link": "https://arxiv.org/abs/2508.09146",
+    "abstract": "The binary exponential backoff scheme is widely used in WiFi 7 and still incurs poor throughput performance under dynamic channel environments. Recent model-based approaches (e.g., non-persistent and $p$-persistent CSMA) simply optimize backoff strategies under a known and fixed node density, still leading to a large throughput loss due to inaccurate node density estimation. This paper is the first to propose LLM transformer-based in-context learning (ICL) theory for optimizing channel access. We design a transformer-based ICL optimizer to pre-collect collision-threshold data examples and a query collision case. They are constructed as a prompt as the input for the transformer to learn the pattern, which then generates a predicted contention window threshold (CWT). To train the transformer for effective ICL, we develop an efficient algorithm and guarantee a near-optimal CWT prediction within limited training steps. As it may be hard to gather perfect data examples for ICL in practice, we further extend to allow erroneous data input in the prompt. We prove that our optimizer maintains minimal prediction and throughput deviations from the optimal values. Experimental results on NS-3 further demonstrate our approach's fast convergence and near-optimal throughput over existing model-based and DRL-based approaches under unknown node densities.",
+    "published": "Wed, 20 Aug 2025 00:00:00 -0400",
+    "categories": [
+      "Computer Science - Machine Learning (cs.lg)",
+      "Computer Science - Artificial Intelligence (cs.ai)",
+      "Computer Science - Networking and Internet Architecture (cs.ni)"
+    ],
+    "is_new": false
+  },
+  {
+    "title": "Learning In-context n-grams with Transformers: Sub-n-grams Are Near-stationary Points",
+    "autor/s": "Aditya Varre, Gizem Y\\\"uce, Nicolas Flammarion",
+    "link": "https://arxiv.org/abs/2508.12837",
+    "abstract": "Motivated by empirical observations of prolonged plateaus and stage-wise progression during training, we investigate the loss landscape of transformer models trained on in-context next-token prediction tasks. In particular, we focus on learning in-context $n$-gram language models under cross-entropy loss, and establish a sufficient condition for parameter configurations to be stationary points. We then construct a set of parameter configurations for a simplified transformer model that represent $k$-gram estimators (for $k \\leq n$), and show that the gradient of the population loss at these solutions vanishes in the limit of infinite sequence length and parameter norm. This reveals a key property of the loss landscape: {sub-$n$-grams are near-stationary points of the population cross-entropy loss}, offering theoretical insight into widely observed phenomena such as stage-wise learning dynamics and emergent phase transitions. These insights are further supported by numerical experiments that illustrate the learning dynamics of $n$-grams, characterized by discrete transitions between near-stationary solutions.",
+    "published": "Wed, 20 Aug 2025 00:00:00 -0400",
+    "categories": [
+      "Computer Science - Machine Learning (cs.lg)"
+    ],
+    "is_new": false
+  },
+  {
+    "title": "Breaking (Global) Barriers in Parallel Stochastic Optimization with Wait-Avoiding Group Averaging",
+    "autor/s": "Shigang Li, Tal Ben-Nun, Giorgi Nadiradze, Salvatore Di Girolamo, Nikoli Dryden, Dan Alistarh, Torsten Hoefler",
+    "link": "https://arxiv.org/abs/2005.00124",
+    "abstract": "Deep learning at scale is dominated by communication time. Distributing samples across nodes usually yields the best performance, but poses scaling challenges due to global information dissemination and load imbalance across uneven sample lengths. State-of-the-art decentralized optimizers mitigate the problem, but require more iterations to achieve the same accuracy as their globally-communicating counterparts. We present Wait-Avoiding Group Model Averaging (WAGMA) SGD, a wait-avoiding stochastic optimizer that reduces global communication via subgroup weight exchange. The key insight is a combination of algorithmic changes to the averaging scheme and the use of a group allreduce operation. We prove the convergence of WAGMA-SGD, and empirically show that it retains convergence rates similar to Allreduce-SGD. For evaluation, we train ResNet-50 on ImageNet; Transformer for machine translation; and deep reinforcement learning for navigation at scale. Compared with state-of-the-art decentralized SGD variants, WAGMA-SGD significantly improves training throughput (e.g., 2.1x on 1,024 GPUs for reinforcement learning), and achieves the fastest time-to-solution (e.g., the highest score using the shortest training time for Transformer).",
+    "published": "Wed, 20 Aug 2025 00:00:00 -0400",
+    "categories": [
+      "Computer Science - Distributed, Parallel, and Cluster Computing (cs.dc)",
+      "Computer Science - Machine Learning (cs.lg)"
+    ],
+    "is_new": false
+  },
+  {
+    "title": "Chimera: Efficiently Training Large-Scale Neural Networks with Bidirectional Pipelines",
+    "autor/s": "Shigang Li, Torsten Hoefler",
+    "link": "https://arxiv.org/abs/2107.06925",
+    "abstract": "Training large deep learning models at scale is very challenging. This paper proposes Chimera, a novel pipeline parallelism scheme which combines bidirectional pipelines for efficiently training large-scale models. Chimera is a synchronous approach and therefore no loss of accuracy, which is more convergence-friendly than asynchronous approaches. Compared with the latest synchronous pipeline approach, Chimera reduces the number of bubbles by up to 50%; benefiting from the sophisticated scheduling of bidirectional pipelines, Chimera has a more balanced activation memory consumption. Evaluations are conducted on Transformer based language models. For a GPT-2 model with 1.3 billion parameters running on 2,048 GPU nodes of the Piz Daint supercomputer, Chimera improves the training throughput by 1.16x-2.34x over the state-of-the-art synchronous and asynchronous pipeline approaches.",
+    "published": "Wed, 20 Aug 2025 00:00:00 -0400",
+    "categories": [
+      "Computer Science - Distributed, Parallel, and Cluster Computing (cs.dc)",
+      "Computer Science - Machine Learning (cs.lg)"
+    ],
+    "is_new": false
+  },
+  {
+    "title": "Iterative Utility Judgment Framework via LLMs Inspired by Relevance in Philosophy",
+    "autor/s": "Hengran Zhang, Keping Bi, Jiafeng Guo, Xueqi Cheng",
+    "link": "https://arxiv.org/abs/2406.11290",
+    "abstract": "Relevance and utility are two frequently used measures to evaluate the effectiveness of an information retrieval (IR) system. Relevance emphasizes the aboutness of a result to a query, while utility refers to the result's usefulness or value to an information seeker. In Retrieval-Augmented Generation (RAG), high-utility results should be prioritized to feed to LLMs due to their limited input bandwidth. Re-examining RAG's three core components -- relevance ranking derived from retrieval models, utility judgments, and answer generation -- aligns with Schutz's philosophical system of relevances, which encompasses three types of relevance representing different levels of human cognition that enhance each other. These three RAG components also reflect three cognitive levels for LLMs in question-answering. Therefore, we propose an Iterative utiliTy judgmEnt fraMework (ITEM) to promote each step in RAG. We conducted extensive experiments on retrieval (TREC DL, WebAP), utility judgment task (GTI-NQ), and factoid question-answering (NQ) datasets. Experimental results demonstrate significant improvements of ITEM in utility judgments, ranking, and answer generation upon representative baselines.",
+    "published": "Wed, 20 Aug 2025 00:00:00 -0400",
+    "categories": [
+      "Computer Science - Information Retrieval (cs.ir)",
+      "Computer Science - Artificial Intelligence (cs.ai)",
+      "Computer Science - Computation and Language (cs.cl)",
+      "Computer Science - Machine Learning (cs.lg)"
+    ],
+    "is_new": false
+  },
+  {
+    "title": "Can AI Keep a Secret? Contextual Integrity Verification: A Provable Security Architecture for LLMs",
+    "autor/s": "Aayush Gupta",
+    "link": "https://arxiv.org/abs/2508.09288",
+    "abstract": "Large language models (LLMs) remain acutely vulnerable to prompt injection and related jailbreak attacks; heuristic guardrails (rules, filters, LLM judges) are routinely bypassed. We present Contextual Integrity Verification (CIV), an inference-time security architecture that attaches cryptographically signed provenance labels to every token and enforces a source-trust lattice inside the transformer via a pre-softmax hard attention mask (with optional FFN/residual gating). CIV provides deterministic, per-token non-interference guarantees on frozen models: lower-trust tokens cannot influence higher-trust representations. On benchmarks derived from recent taxonomies of prompt-injection vectors (Elite-Attack + SoK-246), CIV attains 0% attack success rate under the stated threat model while preserving 93.1% token-level similarity and showing no degradation in model perplexity on benign tasks; we note a latency overhead attributable to a non-optimized data path. Because CIV is a lightweight patch -- no fine-tuning required -- we demonstrate drop-in protection for Llama-3-8B and Mistral-7B. We release a reference implementation, an automated certification harness, and the Elite-Attack corpus to support reproducible research.",
+    "published": "Wed, 20 Aug 2025 00:00:00 -0400",
+    "categories": [
+      "Computer Science - Cryptography and Security (cs.cr)",
+      "Computer Science - Artificial Intelligence (cs.ai)",
+      "Computer Science - Computation and Language (cs.cl)"
+    ],
+    "is_new": false
+  },
+  {
+    "title": "MedKGent: A Large Language Model Agent Framework for Constructing Temporally Evolving Medical Knowledge Graph",
+    "autor/s": "Duzhen Zhang, Zixiao Wang, Zhong-Zhi Li, Yahan Yu, Shuncheng Jia, Jiahua Dong, Haotian Xu, Xing Wu, Yingying Zhang, Tielin Zhang, Jie Yang, Xiuying Chen, Le Song",
+    "link": "https://arxiv.org/abs/2508.12393",
+    "abstract": "The rapid expansion of medical literature presents growing challenges for structuring and integrating domain knowledge at scale. Knowledge Graphs (KGs) offer a promising solution by enabling efficient retrieval, automated reasoning, and knowledge discovery. However, current KG construction methods often rely on supervised pipelines with limited generalizability or naively aggregate outputs from Large Language Models (LLMs), treating biomedical corpora as static and ignoring the temporal dynamics and contextual uncertainty of evolving knowledge. To address these limitations, we introduce MedKGent, a LLM agent framework for constructing temporally evolving medical KGs. Leveraging over 10 million PubMed abstracts published between 1975 and 2023, we simulate the emergence of biomedical knowledge via a fine-grained daily time series. MedKGent incrementally builds the KG in a day-by-day manner using two specialized agents powered by the Qwen2.5-32B-Instruct model. The Extractor Agent identifies knowledge triples and assigns confidence scores via sampling-based estimation, which are used to filter low-confidence extractions and inform downstream processing. The Constructor Agent incrementally integrates the retained triples into a temporally evolving graph, guided by confidence scores and timestamps to reinforce recurring knowledge and resolve conflicts. The resulting KG contains 156,275 entities and 2,971,384 relational triples. Quality assessments by two SOTA LLMs and three domain experts demonstrate an accuracy approaching 90%, with strong inter-rater agreement. To evaluate downstream utility, we conduct RAG across seven medical question answering benchmarks using five leading LLMs, consistently observing significant improvements over non-augmented baselines. Case studies further demonstrate the KG's value in literature-based drug repurposing via confidence-aware causal inference.",
+    "published": "Wed, 20 Aug 2025 00:00:00 -0400",
+    "categories": [
+      "Computer Science - Computation and Language (cs.cl)",
+      "Computer Science - Artificial Intelligence (cs.ai)"
+    ],
+    "is_new": false
+  }
+]

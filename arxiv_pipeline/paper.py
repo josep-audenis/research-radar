@@ -1,11 +1,12 @@
 class Paper:
-    def __init__(self, title, authors, link, abstract, published, categories, is_new):
+    def __init__(self, title, authors, link, abstract, published, categories, categories_name, is_new):
         self.title = title
         self.authors = authors
         self.link = link
         self.abstract = abstract
         self.published  = published
         self.categories = categories
+        self.categories_name = categories_name
         self.is_new = is_new
 
     def matches_keywords(self, keywords):
@@ -19,6 +20,6 @@ class Paper:
             "link": self.link,
             "abstract": self.abstract,
             "published": self.published,
-            "categories": self.categories,
+            "categories": self.categories_name,
             "is_new": self.is_new
         }

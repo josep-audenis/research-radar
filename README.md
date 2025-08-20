@@ -1,17 +1,16 @@
 # Research Radar
 
-Research Radar is a lightweight tool to fetch, filter, and track arXiv papers based on your research interests.
-
-It let's you configure which arXiv categories you care about and which keywords matter to you.
+Research Radar is a lightweight tool to fetch, filter, and track arXiv papers based on your research interests. 
+It let's you configure which arXiv categories you care about and which keywords matter to you. 
 Relevant papers are automatically stored in JSON for later browsing or integration into your workflow.
 
 ## Features
 
-- Fetches papers directly from ArXiv RSS feeds
+- Fetches papers directly from [ArXiv RSS feeds](https://info.arxiv.org/help/rss.html)
 - Cateogry-based filtering (e.g., cs.AI, cs.LG, math.ST, ...)
 - Keyword-based filtering (search in abstract)
 - Stores matched papers in clean JSON format.
-- EXtensible class-based architecture for future integration (email digests, web UI, etc.)
+- Extensible class-based architecture for future integration (email digests, web UI, etc.)
 
 ## Project Structure
 

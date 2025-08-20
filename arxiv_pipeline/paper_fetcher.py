@@ -34,13 +34,33 @@ class PaperFetcher:
         
     def fetch_feed(self):
 
+        print(self.url)
         feed = feedparser.parse(self.url)
         papers = []
         for entry  in feed.entries:
 
             categories = []
+            categories_name = []
             for tag in entry.tags:
-                categories.append(tag["term"])
+
+                categories.append(tag["term"].lower())
+                category = tag["term"].lower().split(".")
+                
+                if len(category) == 1:
+                    category = category[0]
+
+                    full_category = self.preferences[category]["name"]
+                    full_category += f" ({category})"
+                    categories_name.append(full_category)
+
+                else:
+                    sub_category = category[1]
+                    category = category[0]
+                    category_name = self.preferences[category]["name"]
+                    sub_category_name = self.preferences[category]["subfields"][sub_category]["name"]
+                    full_category = f"{category_name} - {sub_category_name} ({category}.{sub_category})"
+                    
+                    categories_name.append(full_category)
 
             papers.append(Paper(
                 title = entry.title,
@@ -49,6 +69,7 @@ class PaperFetcher:
                 abstract = entry.summary.split("Abstract: ")[1],
                 published = entry.published,
                 categories = categories,
+                categories_name = categories_name,
                 is_new = True if entry.arxiv_announce_type == "new" else False
             ))
 
