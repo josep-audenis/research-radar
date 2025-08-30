@@ -33,7 +33,11 @@ Relevant papers are automatically stored in JSON for later browsing or integrati
 
 ## Preference
 
-Edit the ``config/feed_preference.json`` to choose your fields and keywords. The only fields that should be modified are the ``active`` to fetch papers from that category/subcategory, and the ``keywords`` to filter the fetched papers. Example:
+Edit the ``config/feed_preference.json`` to choose your fields and keywords. The only fields that should be modified are :
+- ``active`` -> boolean to enable fetching papers from that category/subcategory
+- ``keywords`` -> list of strings representing the keywords used to filter the fetched papers. 
+
+Example of file structure:
 
 ```json
 {
@@ -104,8 +108,8 @@ python scripts/extract_and_save.py
 data/filtered_papers_{date}.json
 ```
 
-## Upcoming Upgrades
+## WIP Updates
 
-- [ ] Email daily/weekly digest of filtered papers.
+- [x] Email daily/weekly digest of filtered papers.
+- [x] Full paper keyword serach.
 - [ ] Advanced filtering.
-- [ ] Full paper keyword serach.
